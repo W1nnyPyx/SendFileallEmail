@@ -195,7 +195,7 @@ if( $_POST ){
 			</tr>
 			<tr>
 				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Индекс:</b></td>
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'>{$_POST['index3']}</td>
+				<td style='padding: 10px; border: #e9e9e9 1px solid;'>{$_POST['indexorg']}</td>
 			</tr>
 			<tr>
 				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Населенный пункт:</b></td>
@@ -324,7 +324,7 @@ if( $_POST ){
 	Дата трудоустройства: {$_POST['datetrs']}\r\n
 	Должность: {$_POST['dolgnost']}\r\n
 	Количество сотрудников: {$_POST['colvosotrs']}\r\n
-	Индекс: {$_POST['index3']}\r\n
+	Индекс: {$_POST['indexorg']}\r\n
 	Населенный пункт: {$_POST['naselpunkt3']}\r\n
 	Улица: {$_POST['ulica3']}\r\n
 	Дом: {$_POST['home3']}\r\n
